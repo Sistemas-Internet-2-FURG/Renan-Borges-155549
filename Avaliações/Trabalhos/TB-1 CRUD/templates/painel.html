@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{%block title%} FlyCash {%endblock title%}
+
+
+{% block content %}
+<div id="painel-page">
+    <header class="painel-header">
+    <nav class="painel-nav">
+        <ul class="painel-nav content">
+            <li>
+
+                <img src="">
+                <h1>Fly Cash</h1>
+
+            </li>
+            <li>
+                <a href=""> {{user['firstName']}} </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="container-summary titles">
+    <h3>Bem Vindo</h3>
+    <h4>Saldo Total</h4>
+    <h4>Saldo Restante</h4>
+</div>
+<div class="container-summary infos">
+    <h2>{{user['firstName']}}</h2>
+</div>
+    <br>
+
+
+<main>
+    <h2 class="menu title"> Menu Rápido</h2>
+    <div class="quick-menu">
+        <button >Adicionar Conta</button>
+        <button>Adicionar Gasto</button>
+    </div>
+</main>
+<div class="painel-container">
+
+</div>
+
+
+</div>
+
+{% endblock content %}

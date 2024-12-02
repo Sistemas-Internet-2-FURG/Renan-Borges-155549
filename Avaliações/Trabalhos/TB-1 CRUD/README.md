@@ -34,5 +34,27 @@ Seu método HTTP é o DELETE
 
 * Pode ser usado qualquer SGBD relacional, tendo como sugestão PostgreSQL
 
+## Instalação
+Certifique-se de criar um ambiente
+
+```bash 
+py -3 -m venv .venv
+```
+e ativa-lo:
+```bash 
+.venv\Scripts\activate
+```
+
+Instale o Flask
+```bash 
+pip install flask
+```
+
+Para rodar a aplicação execute o comando:
+```sh
+export FLASK_APP=app
+
+```
+
 
 
